@@ -55,3 +55,4 @@ sudo python3 main.py
 ## Relevant Details
 - Threshold Tuning: Adjust memory percentage and I/O limits in config.py or directly in action_executor.py
 - Execution Mode: Un-comment systemctl stop and renice calls when you’re ready to automate
+- Testing: Use the test script to hog the memory of the device and check if the q-agent can detect the memory usage
